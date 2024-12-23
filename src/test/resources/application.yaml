@@ -1,0 +1,8 @@
+windsurf:
+  locations:
+    - "Jastarnia"
+
+feign:
+  weatherbit:
+    api-key: "mockedapikey"
+    url: "http://localhost:${wiremock.server.port}"

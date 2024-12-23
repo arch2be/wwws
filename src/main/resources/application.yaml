@@ -1,0 +1,12 @@
+windsurf:
+  locations:
+    - "Jastarnia"
+    - "Bridgetown"
+    - "Fortaleza"
+    - "Pissouri"
+    - "Le Morne"
+
+feign:
+  weatherbit:
+    api-key:
+    url: "https://api.weatherbit.io/v2.0"
