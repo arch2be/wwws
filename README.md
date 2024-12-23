@@ -26,9 +26,16 @@ If none of the locations meet the criteria, the application returns no result.
 
 
 ## Build the Application
+1. via mvn:
+
    to build project: `mvn clean install`
 
    to run project`mvn spring-boot:run`
+
+2. via docker:
+
+   to build image `docker build -t app .`
+   to run image `docker run -p 8080:8080 app`
 
 ## API Usage
 The application exposes a REST endpoint that you can use to get the best windsurfing location based on the date.
